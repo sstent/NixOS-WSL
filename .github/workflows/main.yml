@@ -55,7 +55,6 @@ jobs:
       matrix:
         config:
           - modern
-          - legacy
           - test
     steps:
       - name: Checkout
